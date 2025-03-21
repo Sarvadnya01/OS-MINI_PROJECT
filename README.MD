@@ -1,42 +1,81 @@
-# OS Mini Project: Scheduling Algorithm GUI
+🎮 OS Mini Project: Process Scheduling Algorithm Simulator
+Welcome to your interactive playground for exploring process scheduling algorithms! Whether you're a student learning OS concepts or a curious coder, this GUI tool makes understanding scheduling algorithms visual, intuitive, and even fun!
 
-Welcome to the OS Mini Project! This GUI tool lets you simulate various process scheduling algorithms, including FCFS, SJF, SRTN, Priority, and Round Robin.
+🌟 Features
+Simulate 5 Popular Algorithms: FCFS, SJF, SRTN, Priority, and Round Robin.
 
-## How to Use
+User-Friendly GUI: No command-line hassle—input values and visualize results in seconds!
 
-### Dependencies
-- Python 3.x
-- Tkinter (usually comes with Python)
+Instant Metrics: See turnaround time, waiting time, and averages for all processes.
 
-### Running the Program
-1. Clone the repository.
-2. Navigate to the directory.
-3. Run `python OS-Mini-Project-Scheduling-Algorithm.py`.
+Perfect for Learning: Great for assignments, labs, or just satisfying your OS curiosity.
 
-### Input Parameters
-- First, select the process scheduling algorithm.
-- Enter the number of processes.
-- Then, for each process:
-  - Enter arrival time, burst time, and priority (optional).
-- Choose an algorithm and, for Round Robin, specify the quantum.
+🚀 Quick Start
+Prerequisites
+Python 3.x (Download here)
 
-### Viewing Results
-- Click "Submit" to see completion time, turnaround time, and waiting time for each process.
-- Scroll down for average turnaround time and average waiting time.
+Tkinter (usually pre-installed with Python. If missing, install with sudo apt-get install python3-tk on Linux).
 
-## Algorithms
-1. FCFS
-2. SJF
-3. SRTN
-4. Priority Scheduling
-5. Round Robin
+Installation
+Clone the Repository:
 
-## Contributors
-- Anuj Koli
-- Raviraj Parab
-- Rahul Shelke
-- Ayush Devre
-- Sahil Patil
-- Vedant Shelar
+bash
+Copy
+git clone https://github.com/Sarvadnya01/OS-MINI_PROJECT.git  
+cd OS-MINI_PROJECT  
+Run the Simulator:
 
-Feel free to contribute! Enjoy exploring process scheduling algorithms with our tool! 🚀
+bash
+Copy
+python OS-Mini-Project-Scheduling-Algorithm.py  
+(Wait for the GUI window to pop up—let the fun begin!)
+
+🖥️ How to Use the Simulator
+Step 1: Choose Your Algorithm
+Pick from the dropdown menu:
+
+FCFS (First-Come, First-Served)
+
+SJF (Shortest Job First)
+
+SRTN (Shortest Remaining Time Next)
+
+Priority Scheduling
+
+Round Robin (with customizable quantum time!)
+
+Step 2: Enter Process Details
+Number of Processes: Type a number (e.g., 3).
+
+For Each Process:
+
+Arrival Time: When the process arrives (e.g., 0, 2, 4).
+
+Burst Time: How long the process needs the CPU (e.g., 5, 3, 7).
+
+Priority (for Priority Scheduling): Lower number = higher priority.
+
+Step 3: Hit "Submit"!
+Watch the tool calculate:
+✅ Completion Time
+✅ Turnaround Time
+✅ Waiting Time
+✅ Average Turnaround & Waiting Times (Perfect for your lab reports!)
+
+🧠 Algorithms Explained
+Algorithm	Description
+FCFS	Runs processes in the order they arrive. Simple but can cause long waits!
+SJF	Picks the shortest job first. Minimizes waiting time but needs future knowledge.
+SRTN	Preemptive SJF—interrupts running processes if a shorter job arrives.
+Priority	Executes higher-priority processes first. Watch out for starvation!
+Round Robin	Cycles processes with a fixed time slice (quantum). Fair but may be slower.
+🤝 Contributions
+- SARVADNYA KAKAD
+- AYUSH GAMBHIRE
+- PRACHEE WAKODE
+
+🎉 Special Thanks
+A big shoutout to the OS community for inspiring this project!
+
+Happy Scheduling! 🌈
+Let’s make operating systems a little less mysterious and a lot more magical.
